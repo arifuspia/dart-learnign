@@ -34,7 +34,7 @@ void main() {
           playerMove == Move.paper && aiMove == Move.rock) {
         print('You Win!');
       } else {
-        print('You Loss The Game, Try Later');
+        print('You Loss The Game, Try Again?');
       }
     } else if (input == 'q') {
       break; // break
