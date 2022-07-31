@@ -22,4 +22,6 @@ void main() {
   print(languages);
   print(languages.contains('Python'));
   print(languages.indexOf('Python'));
+  languages.clear();
+  print(languages);
 }
